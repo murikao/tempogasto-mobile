@@ -1,0 +1,12 @@
+adb connect 192.168.171.101:5555 // ip do genymotion android ?? pra que dar este comando??
+
+
+yarn add react-navigation // biblioteca de navegacao obs: muda muito entao ir no site e ver a instalacao
+                          //
+iniciar a aplição
+
+1 iniciar o genymotion
+2 iniciar o device (samsung Galaxy S8)
+3 iniciar o app em modo devÇ
+3.1 npx react-native run-android
+4 rodar o reactotron ( console.trom.log e state do app)
