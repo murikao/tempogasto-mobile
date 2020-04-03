@@ -1,10 +1,10 @@
 import * as React from 'react';
-import { Button, View, Text } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
 
-import Main from '../src/Main';
-import User from '../src/User';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+
+import Main from './Main';
+import User from './User';
 
 const Stack = createStackNavigator();
 
