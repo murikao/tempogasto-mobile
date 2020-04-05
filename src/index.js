@@ -1,21 +1,15 @@
 import * as React from 'react';
+import {StatusBar} from 'react-native';
+import './config/ReactotronConfig';
 
-import {NavigationContainer} from '@react-navigation/native';
-import {createStackNavigator} from '@react-navigation/stack';
-
-import Main from './Main';
-import User from './User';
-
-const Stack = createStackNavigator();
+import Routes from './routes';
 
 function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator initialRouteName="Main">
-        <Stack.Screen name="Main" component={Main} />
-        <Stack.Screen name="User" component={User} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <>
+      <StatusBar barStyle="light-content" backgroundColor="#7159c1" />
+      <Routes />
+    </>
   );
 }
 
